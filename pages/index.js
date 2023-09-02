@@ -30,7 +30,7 @@ const Home = () => {
               {" "}
               Zacky{" "}
             </span>{" "}
-            Syahputra{" "}
+            Syahputra Gans{" "}
           </motion.h1>{" "}
           <motion.p
             variants={fadeIn("down", 0.3)}
