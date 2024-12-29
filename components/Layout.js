@@ -12,6 +12,10 @@ import Nav from "../components/Nav";
 import Header from "../components/Header";
 import TopLeftImg from "../components/TopLeftImg";
 
+export const metadata = {
+  title: "ayah",
+};
+
 const Layout = ({ children }) => {
   return (
     <div className="w-full h-screen overflow-hidden bg-site text-white bg-cover bg-no-repeat ${sora.variable}">

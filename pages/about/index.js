@@ -7,15 +7,16 @@ import {
   FaCss3,
   FaJs,
   FaReact,
-  FaWordpress,
   FaFigma,
+  FaLaravel,
 } from "react-icons/fa";
 
 import {
   SiNextdotjs,
-  SiFramer,
-  SiAdobexd,
-  SiAdobephotoshop,
+  SiVuedotjs,
+  SiPhp,
+  SiPhpmyadmin,
+  SiMamp,
 } from "react-icons/si";
 
 //  data
@@ -24,20 +25,30 @@ export const aboutData = [
     title: "skills",
     info: [
       {
-        title: "Web Development",
+        title: "Front End Development",
         icons: [
           <FaHtml5 />,
           <FaCss3 />,
           <FaJs />,
           <FaReact />,
           <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <SiVuedotjs />,
+        ],
+      },
+      {
+        title: "Back End Development",
+        icons: [
+          <FaHtml5 />,
+          <FaCss3 />,
+          <FaLaravel />,
+          <SiPhp />,
+          <SiPhpmyadmin />,
+          <SiMamp />,
         ],
       },
       {
         title: "UI/UX Design",
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [<FaFigma />],
       },
     ],
   },
@@ -45,12 +56,12 @@ export const aboutData = [
     title: "awards",
     info: [
       {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
+        title: "Fullstack Web Programming - Course",
+        stage: "2020/2021",
       },
       {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        title: "Mobile Programming - Course",
+        stage: "2021/2022",
       },
     ],
   },
@@ -58,33 +69,25 @@ export const aboutData = [
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Fullstack Web Programming - Freelance",
+        stage: "2021 - 2023",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
-      },
-      {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Intern - Bea Cukai",
+        stage: "2023",
       },
     ],
   },
   {
-    title: "credentials",
+    title: "Education",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Informatics Management - POLSRI",
+        stage: "2020-2023",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
-      },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "BICT - MSU",
+        stage: "2023-2024",
       },
     ],
   },
@@ -110,7 +113,7 @@ const About = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="hidden xl:flex absolute bottom-0 -left-[370px]"
+        className="hidden xl:flex absolute -left-[700px] -bottom-[400px]"
       >
         <Avatar />
       </motion.div>{" "}
@@ -135,10 +138,11 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-10 xl:mb-12 xl:-x-0"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.{" "}
+            Hello, my name is Yahya Zacky Syahputra and I use Yahya as my
+            nickname across social medias, I am a junior pursuing a Bachelor in
+            Information and Communication Techology at Management and Science
+            University.I create stunning website for your business. <br />{" "}
+            Intermediate experienced in web design and development.{" "}
           </motion.p>{" "}
           <motion.div
             variants={fadeIn("right", 0.6)}
@@ -150,16 +154,16 @@ const About = () => {
             <div className="flex flex-1 xl:gap-x-6">
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0 ">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={5} duration={6} /> +{" "}
+                  <CountUp start={0} end={2} duration={6} delay={2} /> +{" "}
                 </div>{" "}
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100%]">
                   {" "}
-                  Projects{" "}
+                  Years Of Experience{" "}
                 </div>{" "}
               </div>{" "}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0 ">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={5} duration={6} /> +{" "}
+                  <CountUp start={0} end={5} duration={6} delay={2} /> +{" "}
                 </div>{" "}
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100%]">
                   {" "}
@@ -168,11 +172,10 @@ const About = () => {
               </div>{" "}
               <div className="relative flex-1">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={250} duration={6} /> +{" "}
+                  <CountUp start={0} end={4} duration={6} delay={2} /> +{" "}
                 </div>{" "}
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100%]">
-                  {" "}
-                  Satisfied clients{" "}
+                  Programming Languange{" "}
                 </div>{" "}
               </div>{" "}
             </div>{" "}
@@ -196,8 +199,8 @@ const About = () => {
                   key={itemIndex}
                   className={`${
                     index === itemIndex &&
-                    "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
-                  } cursor-pointer capitalize xl:text-lg relative after:w-[50%] after:h-[2px] after:bg-white after:absolute after:-bottom-2 after:left-0`}
+                    "text-accent after:w-[100%] after:focus:bg-accent after:transition-all after:duration-300"
+                  } cursor-pointer capitalize xl:text-lg relative after:w-[50%] after:h-[2px] hover:text-accent after:hover:bg-accent after:hover:w-[100%] after:transition-all after:duration-300 after:bg-white transition-all duration-300 after:absolute after:-bottom-2 after:left-0`}
                   onClick={() => setIndex(itemIndex)}
                 >
                   {item.title}{" "}

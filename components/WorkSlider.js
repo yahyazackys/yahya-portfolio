@@ -5,11 +5,11 @@ export const workSlider = {
       images: [
         {
           title: "title",
-          path: "/thumb1.jpg",
+          path: "/stitmuaraenim.png",
         },
         {
           title: "title",
-          path: "/thumb2.jpg",
+          path: "/hayed.png",
         },
         {
           title: "title",
