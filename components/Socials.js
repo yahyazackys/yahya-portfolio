@@ -6,7 +6,14 @@ import {
   RiWhatsappLine,
   RiLineLine,
   RiGithubLine,
+  RiLinkedinLine,
+  RiLinkedinBoxLine,
+  RiLinkedinBoxFill,
+  RiLinkedinFill,
+  RiGameFill,
 } from "react-icons/ri";
+import { BiLogoGmail } from "react-icons/bi";
+import { SiGmail } from "react-icons/si";
 
 const Socials = () => {
   return (
@@ -17,28 +24,35 @@ const Socials = () => {
         className="hover:text-accent transition-all duration-300"
       >
         <RiInstagramLine />
-      </Link>{" "}
+      </Link>
       <Link
         href={"https://github.com/yahyazackys"}
         target="_blank"
         className="hover:text-accent transition-all duration-300"
       >
         <RiGithubLine />
-      </Link>{" "}
+      </Link>
       <Link
-        href={"http://line.me/ti/p/~yahyaganss"}
+        href={"https://www.linkedin.com/in/yahyazackys/"}
         target="_blank"
         className="hover:text-accent transition-all duration-300"
       >
-        <RiLineLine />
-      </Link>{" "}
+        <RiLinkedinFill />
+      </Link>
       <Link
-        href={"https://wa.me/08127770242"}
+        href={"https://wa.me/+60163177467"}
         target="_blank"
         className="hover:text-accent transition-all duration-300"
       >
         <RiWhatsappLine />
-      </Link>{" "}
+      </Link>
+      <Link
+        href={"mailto:yahyazacky123456@gmail.com"}
+        target="_blank"
+        className="hover:text-accent transition-all duration-300"
+      >
+        <BiLogoGmail />
+      </Link>
     </div>
   );
 };

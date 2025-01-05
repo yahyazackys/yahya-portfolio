@@ -1,7 +1,5 @@
-// font
 import { Sora } from "@next/font/google";
 
-// font setting
 const sora = Sora({
   subsets: ["latin"],
   variable: "--font-sora",
@@ -13,15 +11,17 @@ import Header from "../components/Header";
 import TopLeftImg from "../components/TopLeftImg";
 
 export const metadata = {
-  title: "ayah",
+  title: "Yahya Portfolio",
 };
 
 const Layout = ({ children }) => {
   return (
-    <div className="w-full h-screen overflow-hidden bg-site text-white bg-cover bg-no-repeat ${sora.variable}">
+    <div
+      className={`w-full h-screen overflow-hidden bg-site text-white bg-cover bg-no-repeat ${sora.variable}`}
+    >
       <TopLeftImg />
       <Nav />
-      <Header /> {children}{" "}
+      <Header /> {children}
     </div>
   );
 };

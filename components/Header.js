@@ -10,19 +10,16 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6">
           <Link href={"/"}>
-            {" "}
             <h1 className="text-[25px] leading-tight md:text-[30px] md:leading-[1.3] font-semibold">
-              {" "}
-              yahya{" "}
+              yahya
               <span className="font-poppins font-thin text-[25px] leading-tight md:text-[30px] md:leading-[1.3]">
-                {" "}
-                portfolio.{" "}
-              </span>{" "}
-            </h1>{" "}
-          </Link>{" "}
+                portfolio.
+              </span>
+            </h1>
+          </Link>
           <Socials />
-        </div>{" "}
-      </div>{" "}
+        </div>
+      </div>
     </header>
   );
 };

@@ -13,11 +13,11 @@ export const workSlider = {
         },
         {
           title: "title",
-          path: "/thumb3.jpg",
+          path: "/savingmoney.png",
         },
         {
           title: "title",
-          path: "/thumb4.jpg",
+          path: "/yatask.png",
         },
       ],
     },
@@ -25,19 +25,11 @@ export const workSlider = {
       images: [
         {
           title: "title",
-          path: "/thumb4.jpg",
+          path: "/yahyaportfolio.png",
         },
         {
           title: "title",
-          path: "/thumb1.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb2.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
+          path: "/emdi.png",
         },
       ],
     },

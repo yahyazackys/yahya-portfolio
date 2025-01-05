@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-key */
 import React, { useState } from "react";
 
-// icons
 import {
   FaHtml5,
   FaCss3,
@@ -17,9 +16,12 @@ import {
   SiPhp,
   SiPhpmyadmin,
   SiMamp,
+  SiTypescript,
+  SiFlutter,
+  SiDart,
+  SiCodeigniter,
 } from "react-icons/si";
 
-//  data
 export const aboutData = [
   {
     title: "skills",
@@ -30,6 +32,7 @@ export const aboutData = [
           <FaHtml5 />,
           <FaCss3 />,
           <FaJs />,
+          <SiTypescript />,
           <FaReact />,
           <SiNextdotjs />,
           <SiVuedotjs />,
@@ -41,10 +44,15 @@ export const aboutData = [
           <FaHtml5 />,
           <FaCss3 />,
           <FaLaravel />,
+          <SiCodeigniter />,
           <SiPhp />,
           <SiPhpmyadmin />,
           <SiMamp />,
         ],
+      },
+      {
+        title: "Mobile Development",
+        icons: [<SiFlutter />, <SiDart />],
       },
       {
         title: "UI/UX Design",
@@ -53,15 +61,15 @@ export const aboutData = [
     ],
   },
   {
-    title: "awards",
+    title: "Sertification",
     info: [
       {
-        title: "Fullstack Web Programming - Course",
-        stage: "2020/2021",
+        title: "Fullstack Website Developer - Synapse Academy",
+        stage: "2022",
       },
       {
-        title: "Mobile Programming - Course",
-        stage: "2021/2022",
+        title: "Website Programming - Cyborg IT Center",
+        stage: "2023",
       },
     ],
   },
@@ -69,12 +77,20 @@ export const aboutData = [
     title: "experience",
     info: [
       {
-        title: "Fullstack Web Programming - Freelance",
-        stage: "2021 - 2023",
+        title: "Fullstack Developer (Web & Mobile) - Difitech",
+        stage: "2024",
+      },
+      {
+        title: "Fullstack Web Developer - Hayed Consulting",
+        stage: "2024",
       },
       {
         title: "Intern - Bea Cukai",
         stage: "2023",
+      },
+      {
+        title: "Mobile Developer - Desa Gelebak Dalam",
+        stage: "2022",
       },
     ],
   },
@@ -106,9 +122,9 @@ const About = () => {
   console.log(index);
 
   return (
-    <div className="h-full bg-primary py-32 text-center xl:text-left">
-      <Circles />
-      <motion.div
+    <div className="w-full h-full bg-primary py-32 text-center xl:text-left">
+      {/* <Circles /> */}
+      {/* <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
         animate="show"
@@ -116,7 +132,7 @@ const About = () => {
         className="hidden xl:flex absolute -left-[700px] -bottom-[400px]"
       >
         <Avatar />
-      </motion.div>{" "}
+      </motion.div>{" "} */}
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {" "}
         {/* text */}{" "}
@@ -136,13 +152,12 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[500px] mx-auto xl:mx-0 mb-10 xl:mb-12 xl:-x-0"
+            className="max-w-[600px] mx-auto xl:mx-0 mb-10 xl:mb-12 xl:-x-0"
           >
-            Hello, my name is Yahya Zacky Syahputra and I use Yahya as my
-            nickname across social medias, I am a junior pursuing a Bachelor in
-            Information and Communication Techology at Management and Science
-            University.I create stunning website for your business. <br />{" "}
-            Intermediate experienced in web design and development.{" "}
+            I'm a software engineer focused on full-stack website and mobile
+            development, with approximately 2 years of professional experience.
+            I emphasize clean code and create effective, efficient code in
+            building APIs, design systems, and reusable components.
           </motion.p>{" "}
           <motion.div
             variants={fadeIn("right", 0.6)}
