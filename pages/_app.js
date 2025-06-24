@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Yahya Zacky Portfolio</title>
+        <title>Yahya Portfolio</title>
         <meta
           name="description"
           content="Personal portfolio of Yahya Zacky – Full-stack web & mobile developer."
@@ -31,10 +31,10 @@ function MyApp({ Component, pageProps }) {
           content="Showcasing projects, skills, and experience in full-stack development."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/yahyaportfolio.png" />
+        <meta property="og:image" content="/yahya-logo.png" />
         <meta
           property="og:url"
-          content="https://dazzling-radiance.up.railway.app"
+          content="https://yahya-portfolio.up.railway.app"
         />
 
         {/* Favicon */}
