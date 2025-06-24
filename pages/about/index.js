@@ -154,7 +154,7 @@ const About = () => {
             exit="hidden"
             className="max-w-[600px] mx-auto xl:mx-0 mb-10 xl:mb-12 xl:-x-0"
           >
-            I'm a software engineer focused on full-stack website and mobile
+            I am a software engineer focused on full-stack website and mobile
             development, with approximately 2 years of professional experience.
             I emphasize clean code and create effective, efficient code in
             building APIs, design systems, and reusable components.
