@@ -28,7 +28,7 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Here are some of the projects I’ve worked on, covering user
+              Here are some of the projects I&rsquo;ve worked on, covering user
               interface design, system development, and modern technology
               integration. Each project reflects my ability to build functional
               and visually appealing solutions.
