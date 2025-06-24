@@ -21,18 +21,18 @@ const Work = () => {
             >
               My Work <span className="text-accent"> . </span>{" "}
             </motion.h2>{" "}
-            {/* <motion.p
+            <motion.p
               variants={fadeIn("up", 0.4)}
               initial="hidden"
               animate="show"
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.{" "}
-            </motion.p>{" "} */}
+              Here are some of the projects I’ve worked on, covering user
+              interface design, system development, and modern technology
+              integration. Each project reflects my ability to build functional
+              and visually appealing solutions.
+            </motion.p>
           </div>{" "}
           <motion.div
             variants={fadeIn("up", 0.6)}

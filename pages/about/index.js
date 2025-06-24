@@ -61,7 +61,7 @@ export const aboutData = [
     ],
   },
   {
-    title: "Sertification",
+    title: "Certification",
     info: [
       {
         title: "Fullstack Website Developer - Synapse Academy",
@@ -144,9 +144,9 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Captivating <span className="text-accent"> stories </span> birth
-            magnificent designs.{" "}
-          </motion.h2>{" "}
+            Behind the <span className="text-accent">code</span> is a creative
+            mind.
+          </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
             initial="hidden"
