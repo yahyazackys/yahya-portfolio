@@ -12,6 +12,7 @@ import {
 } from "react-icons/fi";
 import { fadeIn } from "../variants";
 import { FaFirefoxBrowser } from "react-icons/fa";
+import Image from "next/image";
 
 const ProjectModal = ({ project, onClose }) => {
   useEffect(() => {
@@ -61,7 +62,7 @@ const ProjectModal = ({ project, onClose }) => {
             {/* Image section */}
             <div className="flex-1">
               <div className="relative group">
-                <img
+                <Image
                   src={project.path}
                   alt={project.title}
                   className="rounded-2xl w-full shadow-2xl border border-gray-600/30 transition-transform duration-500 group-hover:scale-[1.02]"
