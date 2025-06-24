@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }) {
         />
 
         {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/yahya-logo.png" />
       </Head>
 
       <Layout>
